@@ -7,10 +7,10 @@ import {TbGridDots} from 'react-icons/tb'
 const Navbar = () => {
     return (
         <section className='navBarSection'>
-            <header className='header flex'>
+            <header className="header flex">
 
-                <div className='logoDiv'>
-                    <a href="#" className='logo flex' >
+                <div className="logoDiv">
+                    <a href="#" className="logo flex" >
                         <h1><MdOutlineTravelExplore 
                         className="icon"/>  Travel.</h1>
                     </a>
@@ -18,7 +18,7 @@ const Navbar = () => {
                 
                 <div className="navBar">
                     <ul className="navLists flex">
-                        
+
                         <li className="navItem">
                             <a href="#" className="navLink">Home</a>
                         </li>
