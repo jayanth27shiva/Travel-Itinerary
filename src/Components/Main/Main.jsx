@@ -19,92 +19,92 @@ description: 'The epitone of romance, Bora Bora is one of the best travel destin
 },
 
 
-// {
-// id:2,
-// imgsrc: img,
-// destTitle: 'Bora Bora',
-// location: 'New Zealand',
-// grade: 'CULTURAL RELAX',
-// fees: '$700',
-// description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
-// },
+{
+id:2,
+imgsrc: img,
+destTitle: 'Bora Bora',
+location: 'New Zealand',
+grade: 'CULTURAL RELAX',
+fees: '$700',
+description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
+},
 
 
-// {
-// id:3,
-// imgsrc: img,
-// destTitle: 'Bora Bora',
-// location: 'New Zealand',
-// grade: 'CULTURAL RELAX',
-// fees: '$700',
-// description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
-// },
+{
+id:3,
+imgsrc: img,
+destTitle: 'Bora Bora',
+location: 'New Zealand',
+grade: 'CULTURAL RELAX',
+fees: '$700',
+description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
+},
 
 
-// {
-// id:4,
-// imgsrc: img,
-// destTitle: 'Bora Bora',
-// location: 'New Zealand',
-// grade: 'CULTURAL RELAX',
-// fees: '$700',
-// description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
-// },
+{
+id:4,
+imgsrc: img,
+destTitle: 'Bora Bora',
+location: 'New Zealand',
+grade: 'CULTURAL RELAX',
+fees: '$700',
+description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
+},
 
 
-// {
-// id:5,
-// imgsrc: img,
-// destTitle: 'Bora Bora',
-// location: 'New Zealand',
-// grade: 'CULTURAL RELAX',
-// fees: '$700',
-// description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
-// },
+{
+id:5,
+imgsrc: img,
+destTitle: 'Bora Bora',
+location: 'New Zealand',
+grade: 'CULTURAL RELAX',
+fees: '$700',
+description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
+},
 
 
-// {
-// id:6,
-// imgsrc: img,
-// destTitle: 'Bora Bora',
-// location: 'New Zealand',
-// grade: 'CULTURAL RELAX',
-// fees: '$700',
-// description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
-// },
+{
+id:6,
+imgsrc: img,
+destTitle: 'Bora Bora',
+location: 'New Zealand',
+grade: 'CULTURAL RELAX',
+fees: '$700',
+description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
+},
 
 
-// {
-// id:7,
-// imgsrc: img,
-// destTitle: 'Bora Bora',
-// location: 'New Zealand',
-// grade: 'CULTURAL RELAX',
-// fees: '$700',
-// description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
-// },
+{
+id:7,
+imgsrc: img,
+destTitle: 'Bora Bora',
+location: 'New Zealand',
+grade: 'CULTURAL RELAX',
+fees: '$700',
+description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
+},
 
 
-// {
-// id:8,
-// imgsrc: img,
-// destTitle: 'Bora Bora',
-// location: 'New Zealand',
-// grade: 'CULTURAL RELAX',
-// fees: '$700',
-// description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
-// },
+{
+id:8,
+imgsrc: img,
+destTitle: 'Bora Bora',
+location: 'New Zealand',
+grade: 'CULTURAL RELAX',
+fees: '$700',
+description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
+},
 
 
-// {
-// id:9,
-// imgsrc: img,
-// destTitle: 'Bora Bora',
-// location: 'New Zealand',
-// grade: 'CULTURAL RELAX',
-// fees: '$700',
-// description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
-// },
+{
+id:9,
+imgsrc: img,
+destTitle: 'Bora Bora',
+location: 'New Zealand',
+grade: 'CULTURAL RELAX',
+fees: '$700',
+description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
+},
 ]
 
 const Main = () => {
