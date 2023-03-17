@@ -1,8 +1,10 @@
 import React from 'react'
 import './main.css'
 
+//import icons
+import {HiOutlineLocationMarker} from 'react-icons/hi'
 
-import img from '../../Assests/img.jpg'
+import img from '../../Assets/img(1).jpg'
 
 
 const Data = [
@@ -121,6 +123,19 @@ const Main = () => {
                         return(
                             <div key={id} className="singleDestination">
                                 { }
+
+                                 <div className="imageDiv">
+                                    <img src={img} alt={destTitle}/>
+                                 </div>
+
+                                 <div className="cardInfo">
+                                    <h4 className="destTitle">
+                                    {destTitle}</h4>
+                                    <span className="continent flex">
+                                        <HiOutlineLocationMarker className='icon'/>
+                                         <span className="name">{location}</span>
+                                    </span>
+                                 </div>
                             </div>
                         )
                     })
