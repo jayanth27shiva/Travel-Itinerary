@@ -10,13 +10,8 @@ const App = () => {
         <>
         <Navbar/>
         <Home/>
-<<<<<<< HEAD
-        {/*<Main/>
-        <Footer/>*/}
-=======
         <Main/>
-    {/* <Footer/> */}
->>>>>>> c5d77ec2d1045266ff4651499a750157c923e7ff
+        {/*<Footer/>*/}
         </>
     )
 }
