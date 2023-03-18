@@ -1,12 +1,19 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './footer.css'
 import video1 from '../../Assets/video.mp4'
-import {FiChevronsRight, FiSend} from 'react-icons/fi'
+import {FiChevronRight, FiSend} from 'react-icons/fi'
 import {MdOutlineTravelExplore} from 'react-icons/md'
 import {AiFillInstagram, AiFillYoutube, AiOutlineTwitter} from 'react-icons/ai'
 import {FaTripadvisor} from'react-icons/fa'
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 const Footer = () => {
+
+    useEffect(()=> {
+        Aos.init({duration: 2000})
+    },[])
     return (
         <section className='footer'>
             <div className="videoDiv">
@@ -17,14 +24,14 @@ const Footer = () => {
 
             <div className="secContent container">
                 <div className="contactDiv flex">
-                    <div className="text">
+                    <div data-aos="fade-up" className="text">
                         <small>KEEP IN TOUCH</small>
                         <h2>Travel with us</h2>
                     </div>
 
                     <div className="inputDiv flex">
-                        <input type="text" placeholder='Enter Email Address' />
-                        <button className='btn flex' type='submit'>
+                        <input data-aos="fade-up" type="text" placeholder='Enter Email Address' />
+                        <button data-aos="fade-up" className='btn flex' type='submit'>
                             SEND<FiSend className="icon"/>
                         </button>
                     </div>
@@ -38,7 +45,8 @@ const Footer = () => {
                             </a>
                         </div>
 
-                        <div className="footerParagraph">
+                        <div data-aos="fade-up"
+                        className="footerParagraph">
                         A paragraph is defined as “a group of sentences or a single sentence 
                         that forms a unit” (Lunsford and Connors 116). Length and appearance 
                         do not determine whether a section in a paper is a paragraph. For instance, 
@@ -46,46 +54,125 @@ const Footer = () => {
                         a paragraph can be just one sentence long.
                         </div>
 
-                        <div className="footerSocials flex">
+                        <div data-aos="fade-up"
+                        className="footerSocials flex">
                             <AiOutlineTwitter className="icon" />
                             <AiFillYoutube className="icon" />
                             <AiFillInstagram className="icon" />
                             <FaTripadvisor className="icon" />
                         </div>
                     </div>
+
                     <div className="footerLinks grid">
                         {/*Group-one*/}
-                        <div className="linkGroup">
+                        <div data-aos="fade-up"
+                        data-aos-duration="3000"
+                        className="linkGroup">
                             <span className="groupTitle">
                                 OUR AGENCY
                             </span>
 
                             <li className="footerList flex">
-                                <FiChevronsRight className="icon"/>
+                                <FiChevronRight className="icon"/>
                                 Services
                             </li>
 
                             <li className="footerList flex">
-                                <FiChevronsRight className="icon"/>
+                                <FiChevronRight className="icon"/>
                                 Insurance
                             </li>
 
                             <li className="footerList flex">
-                                <FiChevronsRight className="icon"/>
+                                <FiChevronRight className="icon"/>
                                 Agency
                             </li>
 
                             <li className="footerList flex">
-                                <FiChevronsRight className="icon"/>
+                                <FiChevronRight className="icon"/>
                                 Tourism
                             </li>
 
                             <li className="footerList flex">
-                                <FiChevronsRight className="icon"/>
+                                <FiChevronRight className="icon"/>
                                 Payment
                             </li>
 
                         </div>
+
+                        {/*Group-Two*/}
+                        <div data-aos="fade-up"
+                        data-aos-duration="4000"
+                        className="linkGroup">
+                            <span className="groupTitle">
+                                PARTNERS
+                            </span>
+
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                Bookings
+                            </li>
+
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                Rentcars
+                            </li>
+
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                HostelWorld
+                            </li>
+
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                Trivago
+                            </li>
+
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                TripAdvisor
+                            </li>
+
+                        </div>
+
+                        {/*Group-Three*/}
+                        <div data-aos="fade-up" 
+                        data-aos-duration="5000"
+                        className="linkGroup">
+                            <span className="groupTitle">
+                                LAST MINUTE
+                            </span>
+
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                London
+                            </li>
+
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                California
+                            </li>
+
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                Indonesia
+                            </li>
+
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                Europe
+                            </li>
+
+                            <li className="footerList flex">
+                                <FiChevronRight className="icon"/>
+                                Oceania
+                            </li>
+
+                        </div>
+                    </div>
+
+                    <div className="footerDiv flex">
+                        <small>BEST TRAVEL WEBSITE THEME</small>
+                        <small>COPYRIGHTS RESERVED - TRAVEL 2022</small>
                     </div>
 
                 </div>

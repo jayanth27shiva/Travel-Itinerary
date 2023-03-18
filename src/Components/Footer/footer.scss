@@ -195,6 +195,21 @@
                     }
                 }
             }
+
+            .footerDiv{
+                flex-direction: column;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: var(--SecondaryColor);
+                padding: .5rem 2rem;
+
+                small{
+                    font-size: 10px;
+                    color: var(--WhiteColor);
+                }
+            }
         }
      }
 }
