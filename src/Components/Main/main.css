@@ -108,7 +108,7 @@
   background: var(--gradientColor);
   border-radius: 1rem;
   color: var(--WhiteColor);
-  padding: -9px;
+  padding: 1px 10px;
   font-size: 10px;
 }
 .main .secContent .singleDestination .cardInfo .fees .price {
