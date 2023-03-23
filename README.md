@@ -1,6 +1,6 @@
 # Travel Itinerary:earth_africa: 
 
-## Domain: Web Development
+## Domain: _Web Development_
 :small_blue_diamond: A search platform that allows users to plan and book their trip arrangements through online. <br />
 :small_blue_diamond: Offers a convenient and user-friendly interface that allows customers to browse and compare different travel options, make bookings, and manage their itineraries. <br />
 :small_blue_diamond: User can view complete details about the place with Maps, Hotel & Restaurant facilities and Transport too. <br />
