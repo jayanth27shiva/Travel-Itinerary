@@ -23,7 +23,7 @@ const Navbar = () => {
                 <div className="logoDiv">
                     <a href="#" className="logo flex" >
                         <h1><MdOutlineTravelExplore 
-                        className="icon"/>  Travel.</h1>
+                        className="icon"/>  Travel Itinerary</h1>
                     </a>
                 </div>
                 
