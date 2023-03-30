@@ -165,7 +165,7 @@
   .home .homeContent .textDiv .homeTitle::after {
     position: absolute;
     content: "";
-    background: var(--SecondaryColor);
+    /* background: var(--SecondaryColor); */
     height: 5px;
     width: 175px;
     right: 0px;
