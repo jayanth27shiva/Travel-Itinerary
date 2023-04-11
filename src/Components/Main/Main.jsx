@@ -14,11 +14,11 @@ const Data = [
 {
 id:1,
 imgsrc: img,
-destTitle: 'Bora Bora',
-location: 'New Zealand',
-grade: 'CULTURAL RELAX',
-fees: '$700',
-description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
+destTitle: 'Munnar',
+location: 'Kerala',
+grade: 'Hill Station',
+fees: '₹700',
+description: 'Virgin forests, savannah, rolling hills, scenic valleys, numerous streams, huge splashy waterfalls, sprawling tea plantations and winding walkways are all part of the great holiday experience on offer for a traveler to Munnar.Munnar is also known for Neelakurinji, a rare plant which flowers only once in twele years.'
 },
 
 
@@ -28,8 +28,8 @@ imgsrc: img,
 destTitle: 'Bora Bora',
 location: 'New Zealand',
 grade: 'CULTURAL RELAX',
-fees: '$700',
-description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
+fees: '₹700',
+description: 'Virgin forests, savannah, rolling hills, scenic valleys, numerous streams, huge splashy waterfalls, sprawling tea plantations and winding walkways are all part of the great holiday experience on offer for a traveler to Munnar.'
 },
 
 
@@ -39,7 +39,7 @@ imgsrc: img,
 destTitle: 'Bora Bora',
 location: 'New Zealand',
 grade: 'CULTURAL RELAX',
-fees: '$700',
+fees: '₹700',
 description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
 },
 
@@ -50,7 +50,7 @@ imgsrc: img,
 destTitle: 'Bora Bora',
 location: 'New Zealand',
 grade: 'CULTURAL RELAX',
-fees: '$700',
+fees: '₹700',
 description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
 },
 
@@ -61,7 +61,7 @@ imgsrc: img,
 destTitle: 'Bora Bora',
 location: 'New Zealand',
 grade: 'CULTURAL RELAX',
-fees: '$700',
+fees: '₹700',
 description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
 },
 
@@ -72,7 +72,7 @@ imgsrc: img,
 destTitle: 'Bora Bora',
 location: 'New Zealand',
 grade: 'CULTURAL RELAX',
-fees: '$700',
+fees: '₹700',
 description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
 },
 
@@ -83,7 +83,7 @@ imgsrc: img,
 destTitle: 'Bora Bora',
 location: 'New Zealand',
 grade: 'CULTURAL RELAX',
-fees: '$700',
+fees: '₹700',
 description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
 },
 
@@ -94,7 +94,7 @@ imgsrc: img,
 destTitle: 'Bora Bora',
 location: 'New Zealand',
 grade: 'CULTURAL RELAX',
-fees: '$700',
+fees: '₹700',
 description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
 },
 
@@ -105,7 +105,7 @@ imgsrc: img,
 destTitle: 'Bora Bora',
 location: 'New Zealand',
 grade: 'CULTURAL RELAX',
-fees: '$700',
+fees: '₹700',
 description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
 },
 ]
@@ -148,7 +148,7 @@ const Main = () => {
                                     </span>
                                     <div className="fees flex">
                                         <div className="grade">
-                                            <span>{grade}<small>+1</small></span>
+                                            <h4>{grade}</h4>
                                         </div>
                                         <div className="price">
                                             <h5>{fees}</h5>
