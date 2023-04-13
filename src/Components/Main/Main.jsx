@@ -4,7 +4,15 @@ import './main.css'
 //import icons
 import {HiOutlineClipboardCheck, HiOutlineLocationMarker} from 'react-icons/hi'
 
-import img from '../../Assets/img(1).jpg'
+import img from '../../Assets/img (1).jpg'
+import img2 from '../../Assets/img (2).jpg'
+import img3 from '../../Assets/img (3).jpg'
+import img4 from '../../Assets/img (4).jpg'
+import img5 from '../../Assets/img (5).jpg'
+import img6 from '../../Assets/img (6).jpg'
+import img7 from '../../Assets/img (7).jpg'
+import img8 from '../../Assets/img (8).jpg'
+import img9 from '../../Assets/img (9).jpg'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -13,100 +21,100 @@ import 'aos/dist/aos.css'
 const Data = [
 {
 id:1,
-imgsrc: img,
+imgSrc: img,
 destTitle: 'Munnar',
-location: 'Kerala',
-grade: 'Hill Station',
+location: 'Idukki District, Kerala',
+grade: 'HILL STATION',
 fees: '₹700',
-description: 'Virgin forests, savannah, rolling hills, scenic valleys, numerous streams, huge splashy waterfalls, sprawling tea plantations and winding walkways are all part of the great holiday experience on offer for a traveler to Munnar.Munnar is also known for Neelakurinji, a rare plant which flowers only once in twele years.'
+description: 'A hill station and former resort for the British Raj elite, it is surrounded by rolling hills dotted with tea plantations established in the late 19th century.'
 },
 
 
 {
 id:2,
-imgsrc: img,
-destTitle: 'Bora Bora',
-location: 'New Zealand',
-grade: 'CULTURAL RELAX',
+imgSrc: img2,
+destTitle: 'Ooty',
+location: 'Nilgiris District, TamilNadu',
+grade: 'HILL STATION',
 fees: '₹700',
-description: 'Virgin forests, savannah, rolling hills, scenic valleys, numerous streams, huge splashy waterfalls, sprawling tea plantations and winding walkways are all part of the great holiday experience on offer for a traveler to Munnar.'
+description: 'Panoramic views of the blue hills and lush greenery, the landscape of Ooty promises a great number of beautiful memories for the tourists.'
 },
 
 
 {
 id:3,
-imgsrc: img,
-destTitle: 'Bora Bora',
-location: 'New Zealand',
-grade: 'CULTURAL RELAX',
+imgSrc: img3,
+destTitle: 'Taj Mahal',
+location: 'Agra, Uttar Pradesh',
+grade: 'MONUMENT',
 fees: '₹700',
-description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
+description: 'An ivory-white marble mausoleum on the right bank of the river Yamuna.Also one of the world’s most iconic monuments.'
 },
 
 
 {
 id:4,
-imgsrc: img,
-destTitle: 'Bora Bora',
-location: 'New Zealand',
-grade: 'CULTURAL RELAX',
+imgSrc: img4,
+destTitle: 'Alappuzha',
+location: 'Alappuzha district, Kerala',
+grade: 'BOAT HOUSE',
 fees: '₹700',
-description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
+description: 'It is best known for houseboat cruises along the rustic Kerala backwaters, a network of tranquil canals and lagoons,site of the 19th-century Alappuzha Lighthouse.'
 },
 
 
 {
 id:5,
-imgsrc: img,
-destTitle: 'Bora Bora',
-location: 'New Zealand',
-grade: 'CULTURAL RELAX',
+imgSrc: img5,
+destTitle: 'Wayanad',
+location: 'North-east of Kerala',
+grade: 'FOREST TYPE',
 fees: '₹700',
-description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
+description: 'One of the best things to do in Wayanad is to visit the famous Wildlife Sanctuary, which is one of the top Wayanad tourist attractions. Spread over an area of 344 sq kms'
 },
 
 
 {
 id:6,
-imgsrc: img,
-destTitle: 'Bora Bora',
-location: 'New Zealand',
-grade: 'CULTURAL RELAX',
+imgSrc: img6,
+destTitle: 'Kodaikanal',
+location: 'Dindigul district, TamilNadu',
+grade: 'HILL STATION',
 fees: '₹700',
-description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
+description: 'Kodaikanal is one of the very popular holiday destination hill resorts in South India. Kodaikanal is also popularly known as the princes of Hill Stations,known for its rich flora.'
 },
 
 
 {
 id:7,
-imgsrc: img,
-destTitle: 'Bora Bora',
-location: 'New Zealand',
-grade: 'CULTURAL RELAX',
+imgSrc: img7,
+destTitle: 'Mysore Palace',
+location: 'Mysore, Karnataka',
+grade: 'HISTORICAL PALACE ',
 fees: '₹700',
-description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
+description: 'One of the most visited monuments in India. And is one of the largest palaces in the country, it is also known as Amba Vilas Palace, which was the residence of the Wodeyar Maharajas of the Mysore state.'
 },
 
 
 {
 id:8,
-imgsrc: img,
-destTitle: 'Bora Bora',
-location: 'New Zealand',
-grade: 'CULTURAL RELAX',
+imgSrc: img8,
+destTitle: 'Manali',
+location: 'Kullu district, Himachal Pradesh',
+grade: 'HILL STATION',
 fees: '₹700',
-description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
+description: 'A gift of the himalayas to the world, a rustic enclave known for its cool climate and snow-capped mountains.The tourism industry in Manali started booming because of its natural bounties & salubrious climate.'
 },
 
 
 {
 id:9,
-imgsrc: img,
-destTitle: 'Bora Bora',
-location: 'New Zealand',
-grade: 'CULTURAL RELAX',
+imgSrc: img9,
+destTitle: 'Coorg',
+location: 'Kodagu district, Karnataka',
+grade: 'HILL STATION',
 fees: '₹700',
-description: 'The epitone of romance, Bora Bora is one of the best travel destinations in the World. This place is known for its luxurious stays and adventurous actvities.'
+description: 'Surrounded by majestic mountain ranges and boasting a lush green landscape, Coorg or Kodagu is yet another cliched holiday destination that is worth the hype. A popular weekend getaway for nature lovers and solace seekers.'
 },
 ]
 
@@ -128,7 +136,7 @@ const Main = () => {
 
             <div className="secContent grid">
                 {
-                    Data.map(({id, imgsrc, destTitle, location, grade, fees, description})=>{
+                    Data.map(({id, imgSrc, destTitle, location, grade, fees, description})=>{
                         return(
                             <div key={id} 
                             data-aos="fade-up"
@@ -136,7 +144,7 @@ const Main = () => {
                                 { }
 
                                  <div className="imageDiv">
-                                    <img src={img} alt={destTitle}/>
+                                    <img src={imgSrc} alt={destTitle}/>
                                  </div>
 
                                  <div className="cardInfo">
