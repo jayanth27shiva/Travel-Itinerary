@@ -159,7 +159,7 @@ const Main = () => {
                                             <h4>{grade}</h4>
                                         </div>
                                         <div className="price">
-                                            <h5>{fees}</h5>
+                                            <h6>{fees}</h6>
                                         </div>
                                     </div>
 
