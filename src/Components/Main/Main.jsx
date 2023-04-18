@@ -25,7 +25,7 @@ imgSrc: img,
 destTitle: 'Munnar',
 location: 'Idukki District, Kerala',
 grade: 'HILL STATION',
-fees: '₹700',
+fees: '₹4200',
 description: 'A hill station and former resort for the British Raj elite, it is surrounded by rolling hills dotted with tea plantations established in the late 19th century.'
 },
 
@@ -36,7 +36,7 @@ imgSrc: img2,
 destTitle: 'Ooty',
 location: 'Nilgiris District, TamilNadu',
 grade: 'HILL STATION',
-fees: '₹700',
+fees: '₹3000',
 description: 'Panoramic views of the blue hills and lush greenery, the landscape of Ooty promises a great number of beautiful memories for the tourists.'
 },
 
@@ -47,7 +47,7 @@ imgSrc: img3,
 destTitle: 'Taj Mahal',
 location: 'Agra, Uttar Pradesh',
 grade: 'MONUMENT',
-fees: '₹700',
+fees: '₹6000',
 description: 'An ivory-white marble mausoleum on the right bank of the river Yamuna.Also one of the world’s most iconic monuments.'
 },
 
@@ -58,7 +58,7 @@ imgSrc: img4,
 destTitle: 'Alappuzha',
 location: 'Alappuzha district, Kerala',
 grade: 'BOAT HOUSE',
-fees: '₹700',
+fees: '₹2000',
 description: 'It is best known for houseboat cruises along the rustic Kerala backwaters, a network of tranquil canals and lagoons,site of the 19th-century Alappuzha Lighthouse.'
 },
 
@@ -69,7 +69,7 @@ imgSrc: img5,
 destTitle: 'Wayanad',
 location: 'North-east of Kerala',
 grade: 'FOREST TYPE',
-fees: '₹700',
+fees: '₹2500',
 description: 'One of the best things to do in Wayanad is to visit the famous Wildlife Sanctuary, which is one of the top Wayanad tourist attractions. Spread over an area of 344 sq kms'
 },
 
@@ -80,7 +80,7 @@ imgSrc: img6,
 destTitle: 'Kodaikanal',
 location: 'Dindigul district, TamilNadu',
 grade: 'HILL STATION',
-fees: '₹700',
+fees: '₹1200',
 description: 'Kodaikanal is one of the very popular holiday destination hill resorts in South India. Kodaikanal is also popularly known as the princes of Hill Stations,known for its rich flora.'
 },
 
@@ -91,7 +91,7 @@ imgSrc: img7,
 destTitle: 'Mysore Palace',
 location: 'Mysore, Karnataka',
 grade: 'HISTORICAL PALACE ',
-fees: '₹700',
+fees: '₹4300',
 description: 'One of the most visited monuments in India. And is one of the largest palaces in the country, it is also known as Amba Vilas Palace, which was the residence of the Wodeyar Maharajas of the Mysore state.'
 },
 
@@ -102,7 +102,7 @@ imgSrc: img8,
 destTitle: 'Manali',
 location: 'Kullu district, Himachal Pradesh',
 grade: 'HILL STATION',
-fees: '₹700',
+fees: '₹6500',
 description: 'A gift of the himalayas to the world, a rustic enclave known for its cool climate and snow-capped mountains.The tourism industry in Manali started booming because of its natural bounties & salubrious climate.'
 },
 
@@ -113,7 +113,7 @@ imgSrc: img9,
 destTitle: 'Coorg',
 location: 'Kodagu district, Karnataka',
 grade: 'HILL STATION',
-fees: '₹700',
+fees: '₹4000',
 description: 'Surrounded by majestic mountain ranges and boasting a lush green landscape, Coorg or Kodagu is yet another cliched holiday destination that is worth the hype. A popular weekend getaway for nature lovers and solace seekers.'
 },
 ]
