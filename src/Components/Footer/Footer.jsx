@@ -47,11 +47,9 @@ const Footer = () => {
 
                         <div data-aos="fade-up"
                         className="footerParagraph">
-                        A paragraph is defined as “a group of sentences or a single sentence 
-                        that forms a unit” (Lunsford and Connors 116). Length and appearance 
-                        do not determine whether a section in a paper is a paragraph. For instance, 
-                        in some styles of writing, particularly journalistic styles, 
-                        a paragraph can be just one sentence long.
+                        A platform that allows users to plan and book their trip arrangements through online.
+                        User can view complete details about the place with Maps, Hotel & Restaurant facilities and Transport too.
+                        It suggests highly recommended and most visited destinations to the users.
                         </div>
 
                         <div data-aos="fade-up"
