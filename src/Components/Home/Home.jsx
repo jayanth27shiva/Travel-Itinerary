@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import './home.css'
 import video from '../../Assets/video.mp4'
 import {GrLocation} from 'react-icons/gr'
-import {HiFilter} from 'react-icons/hi'
+import {HiFilter,HiOutlineCurrencyRupee} from 'react-icons/hi'
 import {FiFacebook} from 'react-icons/fi'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {SiTripadvisor} from 'react-icons/si'
@@ -53,14 +53,13 @@ const Home = () => {
                             <input type="date"/>
                         </div>
                     </div>
-                    <div className="priceInput">
-                        <div className="label_total flex">
-                            <label htmlFor="price">Max price:</label>
-                            <h3 className="total">$5000</h3>
-                        </div>
+                    <div className="destinationInput">
+                        <label htmlFor="city">Enter your amount:</label>
                         <div className="input flex">
-                            <input type="range" max="5000" min="1000" />
-                        </div>
+                            <input type="text" placeholder='Enter amount here...'/>
+                            <HiOutlineCurrencyRupee className="icon"/>
+
+                        </div> 
                     </div>
 
                     <div className="searchOptions flex">
