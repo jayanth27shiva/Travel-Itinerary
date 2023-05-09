@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+// import {Link} from 'react-router-dom'
 import './navbar.css'
 import {MdOutlineTravelExplore} from 'react-icons/md'
 import {AiFillCloseCircle} from 'react-icons/ai'
