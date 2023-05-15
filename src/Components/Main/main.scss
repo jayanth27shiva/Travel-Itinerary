@@ -11,6 +11,7 @@
     --bodyColor: rgb(240, 240, 246);
     --cardBG: rgb(225, 225, 235);
     --cardHover:rgb(255, 255, 255);
+    --sunriseColor: linear-gradient(to right, #ff0000, #ff4d00, #ff6700, #ff8100,  #ffa700);
 }
 
 .main{
@@ -135,7 +136,7 @@
 
                 .btn{
                     margin-top: 1rem;
-                    color: var(--WhiteColor);
+                    background-color: var(--sunriseColor);
                     font-weight: 600;
                     justify-content: space-between;
                     gap: .5rem;
@@ -144,7 +145,7 @@
                         align-self: center;
                         font-size: 18px;
                     }
-                }
+                }                    
             }
         }
     }
