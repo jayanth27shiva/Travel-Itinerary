@@ -21,6 +21,7 @@
     --inputColor: rgb(239, 239, 239);
     --bodyColor: rgb(240, 240, 246);
     --cardBG: rgb(225, 225, 235);
+    --sunriseColor: linear-gradient(to right, hsl(0, 100%, 50%), hsl(18, 100%, 50%), hsl(24, 100%, 50%), hsl(30, 100%, 50%), hsl(39, 100%, 50%));
 }
 
 html{
@@ -60,7 +61,7 @@ li{
 }
 
 .btn{
-    padding: .6rem 1.5rem;
+    padding: .4rem 1.5rem;
     background: var(--gradientColor);
     border-radius: 3rem;
     border: none;
@@ -84,6 +85,20 @@ img,video{
 
 input{
     font-size: 100%;
+}
+
+.map{
+    padding: .5rem 0.5rem;
+    color: var(--blackColor);
+    background: var(--gradientColor);
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.map:hover {
+    background: var(--sunriseColor);
 }
 
 body{
