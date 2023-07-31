@@ -98,7 +98,7 @@ input{
 }
 
 .map:hover {
-    background: var(--sunriseColor);
+    background: var(--SecondaryColor);
 }
 
 body{
