@@ -1,4 +1,4 @@
-# Travel Itinerary:earth_africa: 
+# Travel Itinerary
 
 ## Domain: _Web Development_
 :small_blue_diamond: A search platform that allows users to plan and book their trip arrangements through online. <br />
